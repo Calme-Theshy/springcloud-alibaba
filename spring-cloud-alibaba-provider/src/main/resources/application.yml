@@ -1,0 +1,9 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: spring-cloud-alibaba-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.14.42.104:8848
